@@ -1,7 +1,7 @@
 # Capstone1
  Capstone 1: Building an E-Commerce Website
 
-# NujabesVinyls
+# Website: NujabesVinyls
 
 This was a project made during my Application Development track with year up.  
 
