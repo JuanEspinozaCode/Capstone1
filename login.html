@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Login</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS v5.3.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+  crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="d-flex flex-column min vh-100">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">NujabesVinyls</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link active" href="products.html" aria-current="page">Products <span class="visually-hidden">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="checkout.html" aria-current="page">Checkout <span class="visually-hidden">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="checkout.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cart <span class="badge text-bg-secondary">3</span>
+                  </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#items"><strong>3 Items (Total: $210)</strong><br>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                          </label>Metaphorical $70
+                          <br>
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                          <label class="form-check-label" for="flexCheckDefault">
+                          </label>Modal Soul $65<br>
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                          <label class="form-check-label" for="flexCheckDefault">
+                          </label>Impression $75</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="login.html">Remove</a></li>
+                    </ul>
+                  </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link active" href="registration.html" aria-current="page">Register <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="login.html" aria-current="page">Login<span class="visually-hidden">(current)</span></a>
+                    </li>
+                </ul>
+                
+                <form class="d-flex my-2 my-lg-0">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search" name="search">
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+      </div>
+    </nav>
+  </header>
+  <!-- NAVIGATION -->
+
+  <!--Registration Confirmation <form action="thankyou.html" method="get"> -->
+
+  <main class="flex flex-grow-1">
+    <div class="registration-header">
+      <p class="reg-style">Login</p>
+    </div>
+
+    <form class="row-registration g-3 needs-validation" novalidate>
+
+      <div class="col-md-4-registration">
+        <label for="validationCustomUsername" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Please sign in with username.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4-registration">
+        <label for="validationCustom03" class="form-label">Password</label>
+        <input type="password" class="form-control" name="" id="validationCustom03" placeholder="" required minlength="4" maxlength="8">
+        <div class="invalid-feedback">
+          Please enter your password.
+        </div>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+
+      <div class="form-check">
+        <input for="remember" class="form-check-input" type="checkbox" value="" id="remember">
+        <label for="remember" class="form-check-label" id="remember">
+          Remember Me
+        </label>
+      </div>
+         
+        </div>
+        <div class="col-md-4-button">
+          <button class="btn btn-primary" type="submit">Sign In</button>
+        </div>
+    </form>
+  </main>
+  
+  
+<!-- ACCOUNT BENEFITS -->
+
+<footer class="bg-dark text-white py-1">
+  <!--    <div class="contact-list-container">-->
+    <div class="container">
+      <ul class="nav justify-content-center">
+          <li class="nav-item">
+              <a class="nav-link text-white" href="#Contact">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-white" href="#Account">Account</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-white" href="mailto:jesp9040@gmail.com">Support</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-white" href="#Service">General Service</a>
+          </li>
+      </ul>
+
+    </div>
+  </footer>
+  <script>// Example starter JavaScript for disabling form submissions if there are invalid fields
+  (() => {
+    'use strict'
+  
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    const forms = document.querySelectorAll('.needs-validation')
+  
+    // Loop over them and prevent submission
+    Array.from(forms).forEach(form => {
+      form.addEventListener('submit', event => {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+  
+        form.classList.add('was-validated')
+      }, false)
+    })
+  })()</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+  crossorigin="anonymous"></script>
+</body>
+</html>
