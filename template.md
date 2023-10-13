@@ -1,41 +1,43 @@
-# Capstone1
- Capstone 1: Building an E-Commerce Website
+# Project Title
 
-# NujabesVinyls
-
-This was a project made during my Application Development track with year up.  
+One paragraph of project description goes here.
 
 ## Getting Started
 
-Make sure all files are downloaded in a folder on your computer.  
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
 What things you need to install the software and how to install them.
 
--Visual Studio Code (https://code.visualstudio.com/)
--Github (https://github.com/)
+```
+Give examples
+```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development environment running.
 
-Download Visual Studio Code
+Say what the step will be:
 
-Download Github
+```
+Give the example
+```
 
-Install Extention on Visual Studio:
+And repeat
 
-Live Server
+```
+until finished
+```
 
-Open folder on Visual Studio Code and open the index file with live server on the bottom right of screen. The page should open on the home page.
+End with an example of getting some data out of the system or using it for a little demo.
 
 
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Bootstrap](https://getbootstrap.com/)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Deployed Link
 
@@ -44,7 +46,7 @@ Open folder on Visual Studio Code and open the index file with live server on th
 
 ## Authors
 
-* **Juan Espinoza** 
+* **YOUR NAME** 
 
 - [Link to Portfolio Site](#)
 - [Link to Github](https://github.com/)
