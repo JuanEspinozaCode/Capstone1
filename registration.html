@@ -40,23 +40,20 @@
                     <a class="nav-link active" href="checkout.html" aria-current="page">Checkout <span class="visually-hidden">(current)</span></a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="checkout.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Cart <span class="badge text-bg-secondary">3</span>
-                  </a>
+                    <a class="nav-link dropdown-toggle" href="checkout.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cart <span class="badge text-bg-secondary">3</span></a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#items"><strong>3 Items (Total: $210)</strong><br>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                          <label class="form-check-label" for="flexCheckDefault">
-                          </label>Metaphorical $70
-                          <br>
-                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-                          <label class="form-check-label" for="flexCheckDefault">
-                          </label>Modal Soul $65<br>
-                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                          <label class="form-check-label" for="flexCheckDefault">
-                          </label>Impression $75</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="registration.html">Remove</a></li>
+                      <li>
+                        <strong>&nbsp;3 Items (Total: $210)</strong><br>
+                        &nbsp;<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Metaphorical $70<br>
+                        &nbsp;<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2"> Modal Soul $65<br>
+                        &nbsp;<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3"> Impression $75
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="registration.html">Remove</a>
+                      </li>
                     </ul>
                   </li>
 
@@ -84,7 +81,7 @@
     <div class="registration-header">
       <p class="reg-style">Create Account</p>
     </div>
-  <section>
+
     <form action="thankyou.html" method="get" class="row-registration g-3 needs-validation" novalidate>
       <div class="col-md-4-registration">
         <label for="validationCustom01" class="form-label">First Name</label>
@@ -102,7 +99,7 @@
       </div>
       <div class="col-md-4-registration">
         <label for="validationCustom03" class="form-label">Password</label>
-        <input type="password" class="form-control" name="" id="validationCustom03" placeholder="" required minlength="4" maxlength="8">
+        <input type="password" class="form-control" name="password" id="validationCustom03" placeholder="" required minlength="4" maxlength="8">
         <div class="invalid-feedback">
           Please set a password with a maximum of 8 characters.
         </div>
@@ -112,7 +109,7 @@
       </div>
       <div class="col-md-4-registration">
         <label for="validationCustom04" class="form-label">Confirm Password</label>
-        <input type="password" class="form-control" name="" id="validationCustom04" placeholder="" required minlength="4" maxlength="8">
+        <input type="password" class="form-control" name="confirm" id="validationCustom04" placeholder="" required minlength="4" maxlength="8">
         <div class="invalid-feedback">
           Password does not match. Please try again.
         </div>
@@ -122,7 +119,7 @@
       </div>
       <div class="col-md-4-registration">
         <label for="validationCustom05" class="form-label">Email</label>
-        <input type="email" class="form-control" name="" id="validationCustom05" placeholder="" required>
+        <input type="email" class="form-control" name="email" id="validationCustom05" placeholder="" autocomplete="off" required>
         <div class="invalid-feedback">
           Please provide a valid email.
         </div>
@@ -225,19 +222,19 @@
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
     
               Instagram
-            </label>
+           
           </div>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
     
               Facebook
-            </label>
+            
           </div>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
     
               TikTok
-            </label>
+            
           </div>
           <div class="input-group">
             <div class="form-check">
@@ -247,12 +244,12 @@
             <input type="text" class="check-text" name="flexRadioDefault" aria-label="Text input with radio button">
           </div>
           </div>   
-        </div>
+
         <div class="col-md-4-button">
           <button class="btn btn-primary" type="submit">Register</button>
         </div>
     </form>
-  </section>
+
   </main>
 
   <footer class="bg-dark text-white py-1">
