@@ -46,12 +46,16 @@ Open folder on Visual Studio Code and open the index file with live server on th
 ### Home
 ![Home](images/home-snap.PNG)
 
+### Products
 ![Products](images/products-snap.PNG)
 
+### Checkout
 ![Checkout](images/checkout-snap.PNG)
 
+### Registration
 ![Registration](images/registration-snap.PNG)
 
+### Login
 ![Login](images/login-snap.PNG)
 
 ## Authors
