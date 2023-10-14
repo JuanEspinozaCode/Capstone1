@@ -58,6 +58,12 @@ Open folder on Visual Studio Code and open the index file with live server on th
 ### Login
 ![Login](images/login-snap.PNG)
 
+### HTML
+![HTML](images/html-snap.PNG)
+
+### CSS
+![CSS](images/css-snap.PNG)
+
 ## Authors
 
 ***Juan Espinoza*** 
