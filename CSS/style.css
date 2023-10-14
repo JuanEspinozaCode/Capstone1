@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .container-paragraph{
@@ -21,11 +22,6 @@
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     text-decoration: underline;
-}
-
-.paragraph2{
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .paragraph-text{
@@ -88,7 +84,8 @@
 
 .card-album{
     margin-bottom: 20px;
-    margin-left: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 

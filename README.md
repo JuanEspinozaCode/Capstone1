@@ -41,6 +41,18 @@ Open folder on Visual Studio Code and open the index file with live server on th
 
 * [See Live Site](https://juanespinozacode.github.io/Capstone1/)
 
+## Images
+
+### Home
+![Home](images/home-snap.PNG)
+
+![Products](images/products-snap.PNG)
+
+![Checkout](images/checkout-snap.PNG)
+
+![Registration](images/registration-snap.PNG)
+
+![Login](images/login-snap.PNG)
 
 ## Authors
 
