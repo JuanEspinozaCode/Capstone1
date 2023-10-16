@@ -74,3 +74,5 @@ Open folder on Visual Studio Code and open the index file with live server on th
 ## Acknowledgments
 
 * Pluralsight Instructor Remsey Mailjard
+
+* My Colleagues
